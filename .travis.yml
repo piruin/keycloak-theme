@@ -1,2 +1,7 @@
+language: ruby
+
 services:
   - docker
+
+script:
+- bundle exec rake test
