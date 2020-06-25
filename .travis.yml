@@ -1,7 +1,5 @@
-language: ruby
-
 services:
   - docker
 
 script:
-- bundle exec rake test
+  - docker build -t piruin/keycloak-theme .
